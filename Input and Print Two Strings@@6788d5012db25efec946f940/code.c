@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main() {
     char a[100];
+    char b[100];
     scanf("%s", &a);
-    printf("You eneterd: %s", a);
+    scanf("%s", &b);
+    printf("You eneterd: %s and %s", a,b);
 }
