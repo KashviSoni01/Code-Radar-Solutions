@@ -1,7 +1,7 @@
 #include <stdio.h>
 #inclue <ctype.h>
 int main() {
-    char a[1];
+    char a;
     scanf("%c", &a);
     if (isupper(a)) {
         printf("Uppercase");
