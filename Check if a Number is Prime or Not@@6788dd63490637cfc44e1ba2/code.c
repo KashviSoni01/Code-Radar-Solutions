@@ -5,7 +5,7 @@ int main() {
     if (a<=1) {
         printf("Not Prime");
     }
-    for (i=2; i*i<=a; i++) {
+    for (i=2; i<a; i++) {
         if (a%i==0) {
             printf("Not Prime");
         }
