@@ -13,7 +13,7 @@ int main() {
             }
         }
         else {
-            printf("Prime")
+            printf("Prime");
         }
     }
 
