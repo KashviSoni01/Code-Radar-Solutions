@@ -9,7 +9,7 @@ int main() {
         
         }
         printf("\n");
-        k=0;
+        k=1;
         j++;
         a--;
     }
