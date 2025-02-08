@@ -7,6 +7,7 @@ int main() {
             printf("%d ", k);
             k++;
         }
+        print("\n")
         k=1;
         i--;
     }
