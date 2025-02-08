@@ -4,11 +4,12 @@ int main() {
     scanf("%d", &a);
     while(a>0) {
         for(int i=1; i<=j; i++) {
-            printf("%d", k);
+            printf("%d ", k);
             k++;
         
         }
         printf("\n");
+        k=0;
         j++;
         a--;
     }
