@@ -2,8 +2,8 @@
 int main() {
     int i,j=1;
     scanf("%d", &i);
-    for(int sum=0; j<=i; j++) {
-        sum++;
+    for (int sum=0; j<=i; j++) {
+        sum+=j;
     }
     printf("%d", sum);
 }
