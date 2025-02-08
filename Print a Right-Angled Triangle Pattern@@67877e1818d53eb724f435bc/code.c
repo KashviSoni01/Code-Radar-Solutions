@@ -5,10 +5,10 @@ int main() {
     while(a>0) {
         for(int i=1; i<=j; i++) {
             printf("* ");
-            j++;
         
         }
         printf("\n");
+        j++;
         a--;
     }
 }
