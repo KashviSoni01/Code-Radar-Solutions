@@ -8,8 +8,8 @@ int getNthBit(int num, int n) {
 }
 
 int main() {
-    int num = 29;  // Example number (in binary: 11101)
-    int n = 3;     // Position of the bit to check (0-based index)
+    int num,n;
+    scanf("%d", &n);
 
     int bit = getNthBit(num, n);
 
