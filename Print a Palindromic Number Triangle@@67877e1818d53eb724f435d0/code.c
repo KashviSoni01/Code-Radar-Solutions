@@ -13,7 +13,7 @@ int main() {
             k++;
             
         }
-        for (;j<=i*2-1;j++) {
+        for (;j<=2*i-1;j++) {
             k--;
             printf("%d", k);
         }
