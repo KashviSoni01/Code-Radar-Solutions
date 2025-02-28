@@ -11,6 +11,6 @@ int main() {
         for (j=1;j<=i;j++) {
             printf("*");
         }
-        print("\n");
+        printf("\n");
     }
 }
