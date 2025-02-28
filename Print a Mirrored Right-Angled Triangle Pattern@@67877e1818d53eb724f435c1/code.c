@@ -1,3 +1,5 @@
 // Your code here...
 #include <stdio.h>
-printf("hello");
+int main() {
+    printf("Hello");
+}
