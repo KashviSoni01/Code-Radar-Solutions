@@ -9,6 +9,6 @@ int main() {
             printf("%c ", a);
             a++;
         }
-        print("\n");
+        printf("\n");
     }
 }
