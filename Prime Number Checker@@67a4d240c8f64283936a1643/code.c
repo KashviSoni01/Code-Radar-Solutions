@@ -11,7 +11,7 @@ int isPrime(int num) {
         printf("1\n");
     }
     else {
-        printf("0\n")
+        printf("0\n");
     }
 
     }
