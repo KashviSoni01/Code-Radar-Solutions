@@ -6,7 +6,7 @@ int printPrimesInRange(int a, int b) {
             if(i%j==0) {
                 k++;
             }
-            if (k!>0) {
+            if (k==0) {
                 printf("%d", i);
             }
             
