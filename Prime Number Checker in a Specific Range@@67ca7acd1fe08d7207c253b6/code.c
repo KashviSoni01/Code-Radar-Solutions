@@ -1,4 +1,5 @@
 // Your code here...
+#include <stdio.h>
 int printPrimesInRange(int a, int b) {
     int PrimeFound=0;
     for (int i=a;i<=b;i++) {
