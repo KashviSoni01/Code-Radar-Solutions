@@ -9,12 +9,12 @@ int printPrimesInRange(int a, int b) {
                 k++;
                 break;
             }
-            if (k==0 && i>1) {
-                printf("%d", i);
-                PrimeFound=1;
+        if (k==0 && i>1) {
+            printf("%d ", i);
+            PrimeFound=1;
             }
-        if (!PrimeFound) {
-            printf("Np prime numbers");
+    if (!PrimeFound) {
+        printf("Np prime numbers");
         }
             
         }
