@@ -8,7 +8,10 @@ int isPrime(int num) {
             break;
         }
     if (k==0) {
-        printf("%d", num);
+        printf("1\n");
+    }
+    else {
+        printf("0\n")
     }
 
     }
