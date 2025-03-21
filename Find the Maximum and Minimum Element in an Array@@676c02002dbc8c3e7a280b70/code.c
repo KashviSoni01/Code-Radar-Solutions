@@ -18,5 +18,5 @@ int main() {
         printf("%d %d", arr[0], arr[n-1]);
 
 
-}
+    }
 }
