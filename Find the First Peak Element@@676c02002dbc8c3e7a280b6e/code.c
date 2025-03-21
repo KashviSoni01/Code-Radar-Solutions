@@ -25,7 +25,7 @@ int main() {
                 }
             }
             else {
-                pritnf("-1");
+                printf("-1");
             }
             }
         }
