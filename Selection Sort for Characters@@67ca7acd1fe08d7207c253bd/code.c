@@ -7,12 +7,12 @@ void selectionSort(char arr[], int n){
                 smallestIndex=j;
             }
         }
-        int temp=arr[i];
+        char temp=arr[i];
         arr[i]=arr[smallestIndex];
         arr[smallestIndex]=temp;
     }
 }
-char printArray(char[] arr, int n) {
+char printArray(char arr[], int n) {
     for(int i=0; i<n;i++){
         printf("%d ", arr[i]);
     }
