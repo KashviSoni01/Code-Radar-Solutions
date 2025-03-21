@@ -12,7 +12,7 @@ int findUnsortedSubarray(int arr[], int n) {
             }
         }
     }
-    printf("%d", k);
+    return k;
 
 
 }
