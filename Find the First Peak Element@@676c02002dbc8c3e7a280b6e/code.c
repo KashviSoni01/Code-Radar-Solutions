@@ -19,7 +19,7 @@ int main() {
                     printf("%d", arr[k]);
                 }
             }
-            else if (1<k<N-2){
+            else if (k>1 && k<N-2){
                 if (arr[k]>arr[k-1] && arr[k]>arr[k+1]) {
                     printf("%d", arr[k]);
                 }
