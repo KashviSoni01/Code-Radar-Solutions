@@ -1,21 +1,13 @@
 // Your code here...
 #include <stdio.h>
 int main() {
-    int n,k;
+    int n;
     scanf("%d", &n);
     int arr[n];
-    for(int i=0; i<n; i++) {
+    for(int i=0; i<n;i++) {
         scanf("%d", &arr[i]);
     }
+    int k;
     scanf("%d", &k);
-    for(int i=0; i<n; i++) {
-        if(i+2<n) {
-            i=i+k;
-            printf("%d\n", arr[i]);
-        }
-        else {
-            i=i+k-n;
-            printf("%d\n", arr[i]);
-        }
-    }
-}
+    return arr[k+1:] + arr[:k+1]
+
