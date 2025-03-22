@@ -9,5 +9,5 @@ int main() {
     }
     int k;
     scanf("%d", &k);
-    return arr[k+1:] + arr[:k+1]
-
+    return arr[k+1:] + arr[:k+1];
+}
