@@ -19,5 +19,5 @@ int main() {
             k++;
         }
     }
-    printf("%d", k)
+    printf("%d", k);
 }
