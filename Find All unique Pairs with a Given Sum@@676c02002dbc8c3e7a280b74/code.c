@@ -11,13 +11,13 @@ int main() {
     scanf("%d", &t);
     int same=1;
     for(int i=0;i<n;i++){
-        if(array[i]!=array[0]){
+        if(arr[i]!=arr[0]){
             same=0;
             break;
         }
     }
     if(same){
-        if(array[0]+array[1]==t){
+        if(arr[0]+arr[1]==t){
             printf("%d %d\n",array[0],array[1]);
         }
     }
