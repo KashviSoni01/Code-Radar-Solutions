@@ -7,17 +7,22 @@ int main() {
     for (int i=0; i<n; i++) {
         scanf("%d", &arr[i]);
     }
-    int k=0;
+    int count=0;
+    int count1=0;
     for (int i=0; i<n; i++) {
-        int notprime=0;
         for(int j=2; j<i; j++) {
             if (i%j==0) {
-                notprime=1;
+                count+=1
                 }
         }
-        if(!notprime) {
-            k++;
+        if (count>0) {
+            count1++;
         }
     }
-    printf("%d", k);
+    if (count1>0) {
+        printf("%d", count1);
+    }
+    else {
+        printf("%d", -1);
+    }
 }
