@@ -18,5 +18,11 @@ int main() {
         }
     }
     int a=arr[n-1]*arr[n-2];
-    printf("%d", a);
+    int b=arr[0]*arr[1];
+    if (a>b){
+        printf("%d", a);
+    }
+    else {
+        printf("%d", b);
+    }
 }
