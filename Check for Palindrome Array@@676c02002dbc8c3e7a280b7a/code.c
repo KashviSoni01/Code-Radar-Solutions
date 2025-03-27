@@ -1,21 +1,20 @@
 // Your code here...
 #include <stdio.h>
-int main() {
+int main(){
     int n;
-    scanf("%d", &n);
-    int arr[n];
-    for (int i=0; i<n; i++) {
-        scanf("%d", &arr[i]);
+    scanf("%d",&n);
+    int array[n];
+    for(int i=0;i<n;i++){
+        scanf("%d",&array[i]);
     }
-    int isPalindrome=1;
-    for (int i=0; i<n/2;i++) {
-        if(arr[i]==arr[n-i-1]) {
-            isPalindrome=1;
-        } 
-        else {
-            printf("NO");
-            return 0;
-        }   
+    int k=1;
+    for(int j=0;j<n;j++){
+        if(array[j]!=array[n-j-1]){
+            k=0;
+            break;
+        }
     }
-    printf("YES");
+    if(k){printf("YES");}
+    else{printf("NO");}
+    return 0;
 }
