@@ -26,7 +26,7 @@ int main() {
             printf("%d ", arr[i]);
         }
         for (int i=0; i<count; i++) {
-            printf("%d ", 0)
+            printf("%d ", 0);
         }
     }
 }
