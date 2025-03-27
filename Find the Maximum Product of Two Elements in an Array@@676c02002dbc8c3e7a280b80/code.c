@@ -18,5 +18,5 @@ int main() {
         }
     }
     int a=arr[n-1]*arr[n-2];
-    printf("%d", &a);
+    printf("%d", a);
 }
