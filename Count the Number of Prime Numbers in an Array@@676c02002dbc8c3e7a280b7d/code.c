@@ -39,7 +39,7 @@ int main() {
 
     // Output the result
     if (count1 > 0) {
-        printf("%d", count1);  // Print the number of non-prime numbers
+        printf("%d", n-count1);  // Print the number of non-prime numbers
     } else {
         printf("-1");  // If no non-prime numbers are found, print -1
     }
