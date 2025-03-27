@@ -15,7 +15,7 @@ int main() {
     }
     if (count==0) {
         for(int i=0; i<n; i++) {
-            printf("%d", arr[i]);
+            printf("%d ", arr[i]);
         }
     }
     else {
