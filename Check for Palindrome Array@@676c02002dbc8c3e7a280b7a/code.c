@@ -8,13 +8,14 @@ int main() {
         scanf("%d", &arr[i]);
     }
     int isPalindrome=1;
+    char a="No", b="YES";
     for (int i=0; i<n/2;i++) {
         if(arr[i]==arr[n-i-1]) {
             isPalindrome=1;
         } 
         else {
-            return N0;
+            return a;
         }   
     }
-    return YES;
+    return b;
 }
