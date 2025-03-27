@@ -5,7 +5,7 @@ int main() {
     scanf("%d", &n);
     int arr[n];
     for (int i=0; i<n; i++) {
-        scanf("%d"; &arr[i]);
+        scanf("%d", &arr[i]);
     }
     int k=0;
     for (int i=0; i<n; i++) {
@@ -15,7 +15,9 @@ int main() {
                 notprime=1;
                 }
         }
-        k++;
+        if(!notprime) {
+            k++;
+        }
     }
     printf("%d", k)
 }
