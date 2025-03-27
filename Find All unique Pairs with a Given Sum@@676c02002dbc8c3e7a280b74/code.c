@@ -18,7 +18,7 @@ int main() {
     }
     if(same){
         if(arr[0]+arr[1]==t){
-            printf("%d %d\n",array[0],array[1]);
+            printf("%d %d\n",arr[0],arr[1]);
         }
     }
     else {
