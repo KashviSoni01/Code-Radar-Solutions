@@ -14,12 +14,14 @@ int main() {
             arr[j+1]=temp;
         }
     }
-    int a=(n/2);
-    int b=(n/2)+1;
     if (n%2==0) {
-        printf("%d", arr[a]+arr[b]);
+        int e=n/2
+        int avg=(array[e-1]+array[e])/2;
+        printf("%d",avg);
     }
-    else {
-        printf("%d", arr[a]);
+    else{
+        int e=n/2;
+        printf("%d",array[e]);
     }
+    
 }
