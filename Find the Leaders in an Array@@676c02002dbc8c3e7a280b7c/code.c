@@ -1,29 +1,24 @@
 // Your code here...
 #include <stdio.h>
-int main() {
-    int n;
-    scanf("%d", &n);
-    int arr[n];
-    for(int i=0; i<n; i++) {
-        scanf("%d", &arr[i]);
+int main(){
+  int n;
+  scanf("%d",&n);
+  int array[n];
+  for(int i=0;i<n;i++){
+    scanf("%d",&array[i]);
+  }
+  for(int i=0;i<n-1;i++){
+    int isfound=1;
+    for(int j=i+1;j<n;j++){
+      if(array[i]<array[j]){
+        isfound=0;
+        break;
+      }
     }
-    if(n==1) {
-        printf("%d ", arr[0]);
+    if(isfound==1){
+      printf("%d ",array[i]);
     }
-    else {
-        for (int i=0; i<n-1; i++) {
-            int isFound=1;
-            for (int j=i+1; i<n; i++) {
-                if(arr[i]<arr[j]) {
-                    isFound=0;
-                    break;
-                }
-            }
-        }
-        if (isFound==1) {
-            printf("%d ", arr[i]);
-        }
-        printf("%d ", arr[n-1]);
-    }
-    
+  }
+  printf("%d",array[n-1]);
+  return 0;
 }
