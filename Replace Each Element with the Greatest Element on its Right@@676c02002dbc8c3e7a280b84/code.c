@@ -9,6 +9,11 @@ int main(){
         scanf("%d",&array[i]);
     }
     for(int j=0;j<n;j++){
+        if(array[j]%2==0){
+            even=array[j];
+        }
+    }
+    for(int j=0;j<n;j++){
         if(array[j]%2==0 && array[j]>even){
            even=array[j];
         }
