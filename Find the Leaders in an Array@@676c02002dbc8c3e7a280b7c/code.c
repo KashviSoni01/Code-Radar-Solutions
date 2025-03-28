@@ -13,7 +13,7 @@ int main() {
     else {
         for (int i=0; i<n-1; i++) {
             int isFound=1
-            for(int j=i+1; i<n; i++) {
+            for (int j=i+1; i<n; i++) {
                 if(arr[i]<arr[j]) {
                     isFound=0;
                     break;
