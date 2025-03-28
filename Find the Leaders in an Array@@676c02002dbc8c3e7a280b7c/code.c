@@ -12,9 +12,16 @@ int main() {
     }
     else {
         for (int i=0; i<n-1; i++) {
-            if(arr[i]>arr[i+1]) {
-                printf("%d ", arr[i]);
+            int isFound=1
+            for(int j=i+1; i<n; i++) {
+                if(arr[i]<arr[j]) {
+                    isFound=0;
+                    break;
+                }
             }
+        }
+        if (isFound==1) {
+            printf("%d ", arr[i]);
         }
         printf("%d ", arr[n-1]);
     }
