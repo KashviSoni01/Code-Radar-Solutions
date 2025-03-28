@@ -26,7 +26,12 @@ int main() {
             }
         }
     if (allEqual==0) {
-        printf("%d", arr[1]);
+        if( arr[0]!=arr[1]) {
+            printf("%d", arr[1]);
+        }
+        else {
+            printf("%d", arr[2]);
+        }
     }
     else {
         printf("%d", -1);
