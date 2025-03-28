@@ -14,8 +14,8 @@ int main() {
             arr[j+1]=temp;
         }
     }
-    int a=(n/2)-1;
-    int b=(n/2);
+    int a=(n/2);
+    int b=(n/2)+1;
     if (n%2==0) {
         printf("%d", arr[a]+arr[b]);
     }
