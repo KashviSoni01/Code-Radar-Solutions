@@ -8,13 +8,12 @@ int main() {
         scanf("%d", &arr[i]);
     }
     scanf("%d", &k);
+    int temp=-1;
     for (int i=0; i<n; i++) {
         if(arr[i]==k) {
-            printf("%d", i);
+            temp=i;
             break;
         }
-        else {
-            printf("%d", -1);
-        }
     }
+    printf("%d", temp);
 }
