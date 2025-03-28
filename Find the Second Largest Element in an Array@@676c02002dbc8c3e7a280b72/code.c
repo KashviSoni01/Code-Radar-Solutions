@@ -29,7 +29,7 @@ int main() {
             }
         }
     if (allEqual=0) {
-        printf("%d" arr[n-2]);
+        printf("%d", arr[n-2]);
     }
     else {
         printf("%d", -1);
