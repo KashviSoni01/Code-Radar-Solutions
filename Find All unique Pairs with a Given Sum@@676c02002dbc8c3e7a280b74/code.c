@@ -9,26 +9,11 @@ int main() {
     }
     int t;
     scanf("%d", &t);
-    int same=1;
-    for(int i=0;i<n;i++){
-        if(arr[i]!=arr[0]){
-            same=0;
-            break;
-        }
-    }
-    if(same){
-        if(arr[0]+arr[1]==t){
-            printf("%d %d\n",arr[0],arr[1]);
-        }
-    }
-    else {
-        for (int i=0; i<n-1; i++) {
-        for(int j=i+1; j<n; j++) {
-            if(arr[i]+arr[j]==t) {
-                printf("%d %d\n", arr[i], arr[j]);
-                break;
+    for (int i=0; i<n; i++) {
+        for (int j=i+1; j<n; j++) {
+            if (arr[j]+arr[i]==t) {
+                printf("%d %d", arr[i], arr[j]);
             }
         }
-    }
     }
 }
